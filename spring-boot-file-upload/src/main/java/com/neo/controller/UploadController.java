@@ -12,10 +12,18 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
+/**
+ * @Author kevin
+ * @Description 上传文件
+ * @Date Created on 2019/12/26 14:22
+ * @param 
+ * @return 
+ */
+
 @Controller
 public class UploadController {
     //Save the uploaded file to this folder
-    private static String UPLOADED_FOLDER = "E://temp//";
+    private static String UPLOADED_FOLDER = "d://temp//";
 
     @GetMapping("/")
     public String index() {
