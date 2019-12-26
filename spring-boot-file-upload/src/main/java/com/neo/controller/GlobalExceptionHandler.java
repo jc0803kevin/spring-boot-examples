@@ -5,6 +5,14 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.multipart.MultipartException;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
+/**
+ * @Author kevin
+ * @Description 统一异常处理
+ * @Date Created on 2019/12/26 14:23
+ * @param
+ * @return
+ */
+
 @ControllerAdvice
 public class GlobalExceptionHandler {
 
